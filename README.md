@@ -98,7 +98,7 @@
 
 ## [↑](#table-of-contents) Introduction
 
-According to U.S. public law, **open source intelligence:**
+According to U.S. public law, **Open Source Intelligence:**
 
 - Is produced from publicly available information
 - Is collected, analyzed, and disseminated in a timely manner to an appropriate audience
