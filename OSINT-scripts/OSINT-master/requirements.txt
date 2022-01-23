@@ -1,0 +1,6 @@
+tweepy>=3.7.0
+requests>=2.21.0
+beautifulsoup4>=4.7.1
+twint>=1.2.0.0
+aiohttp-socks>=0.2.2
+# Required for twint

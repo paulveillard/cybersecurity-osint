@@ -1,0 +1,137 @@
+#!/usr/bin/env bash
+# bash-scripts/onions
+
+# onions
+#  Takes a list of .onions, check if they're live or scrape them for more .onions
+
+set -euo pipefail
+# -e exit if any command returns non-zero status code
+# -u prevent using undefined variables
+# -o pipefail force pipelines to fail on first non-zero status code
+
+IFS=$'\n\t'
+# Set Internal Field Separator to newlines and tabs
+# This makes bash consider newlines and tabs as separating words
+# See: http://redsymbol.net/articles/unofficial-bash-strict-mode/
+
+### Define Colours ###
+tput sgr0; 
+# reset colors
+
+readonly RED="$(tput setaf 1)"
+readonly GREEN="$(tput setaf 2)"
+readonly RESET="$(tput sgr0)"
+readonly BOLD="$(tput bold)"
+
+### END Colours ###
+
+function usage {
+  echo -e "\\n  Takes a list of .onions, check if they're live or scrape them for more .onions\\n"
+  echo "Usage:"
+  echo "    ./onions --check onions.txt"
+  echo -e "    ./onions --scrape onions.txt\\n"
+
+  exit 0
+}
+
+
+### UTILITY FUNCTIONS ###
+# ctrl_c
+# parse_file
+
+function ctrl_c {
+  echo -e "\\n[❌] ${USER} has chosen to quit!"
+  exit 1
+}
+
+
+function parse_file {
+
+  onions=()
+  
+  while read line; do
+    onion="$(echo $line | tr -d '\r')"
+    onions+=("${onion}")
+  done < "${onion_list}"
+}
+
+### END UTILITY FUNCTIONS ###
+
+
+function live_check {
+
+  echo -e "Checking ${BOLD}${#onions[@]}${RESET} onions\n"
+  sleep 2
+  live=0
+
+  for onion in "${onions[@]}"; do
+    echo "Checking: ${BOLD}${onion}${RESET}"
+    if curl -s --max-time 5 --socks5-hostname localhost:9050 "${onion}" > /dev/null; then
+      echo " Result: ${GREEN}LIVE!${RESET}"
+      echo -e "${onion}" >> live_onions.txt
+      live=$((live+1))
+      echo ""
+    else
+      echo " Result: ${RED}DEAD!${RESET}"
+      echo ""
+    fi
+  done
+
+  echo -e "\n ${live}/${#onions[@]} onions were ${GREEN}LIVE!${RESET}"
+}
+
+
+function scrape {
+
+  for onion in "${onions[@]}"; do
+    echo "Scraping: ${BOLD}${onion}${RESET}"
+    page=$(curl -s --max-time 20 --socks5-hostname localhost:9050 "${onion}")
+    scraped_onions=$(echo "${page}" | grep -E -o "(?:([a-z]+):\/\/){0,1}([a-z2-7]{16})\.onion(?::(\d+)){0,1}" | sort -u)
+    
+    if [ -n "${scraped_onions}" ]; then
+      num_scraped_onions=$(echo "${scraped_onions}" | wc -l | xargs )
+      echo -e "${GREEN}Found ${num_scraped_onions} Onions:${RESET} \n${scraped_onions}"
+      echo "${scraped_onions}" >> scraped_onions.txt
+      echo 
+    fi
+  done
+}
+
+
+function main {
+
+  trap ctrl_c SIGINT
+  # Detect and react to the user hitting CTRL + C
+  
+  declare -r arg=${1:-"usage"}
+  declare -r onion_list=${2:-""}
+
+  case "${arg}" in
+
+    usage|help|-h|--help|🤷‍♂️|🤷‍♀️)
+      usage
+      shift
+      ;;
+
+    check|--check|-c)
+      parse_file
+      live_check "${onions}"
+      shift
+      ;;
+
+    scrape|--scrape|-s)
+      parse_file
+      scrape "${onions}"
+      shift
+      ;;
+
+    *)
+      echo -e "\\n  [❌] ${RED}Invalid argument:${RESET} ${arg}"
+      exit 1  
+      shift
+      ;;
+
+  esac
+}
+
+main "$@"
