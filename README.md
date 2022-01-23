@@ -93,6 +93,8 @@
  - [OSINT Blogs](#-osint-blogs)
  - [Other Resources](#-other-resources)
 
+**[`^        back to top        ^`](#)**
+
 
 ## [↑](#table-of-contents) Introduction
 
@@ -101,6 +103,8 @@ According to U.S. public law, **open source intelligence:**
 - Is produced from publicly available information
 - Is collected, analyzed, and disseminated in a timely manner to an appropriate audience
 - Addresses a specific intelligence requirement
+
+**[`^        back to top        ^`](#)**
 
 ## [↑](#table-of-contents) General Search
 
@@ -126,6 +130,8 @@ According to U.S. public law, **open source intelligence:**
 algorithms, knowledgebase and AI technology.
 * [Yahoo! Search](http://www.yahoo.com) -
 
+**[`^        back to top        ^`](#)**
+
 ## [↑](#table-of-contents) Main National Search Engines
 
 *Localized search engines by country.*
@@ -145,6 +151,8 @@ algorithms, knowledgebase and AI technology.
 * [Walla (Israel)](http://www.walla.co.il)
 * [Yandex (Russia)](http://www.yandex.com)
 * [Najdi.si (Slovenia)](http://www.najdi.si/)
+
+**[`^        back to top        ^`](#)**
 
 ## [↑](#table-of-contents) Meta Search
 
@@ -166,6 +174,8 @@ algorithms, knowledgebase and AI technology.
 * [Zapmeta](http://www.zapmeta.com)
 * [Swisscows](https://swisscows.com/)
 
+**[`^        back to top        ^`](#)**
+
 ## [↑](#table-of-contents) Specialty Search Engines
 
 *Search engines for specific information or topics.*
@@ -186,6 +196,8 @@ algorithms, knowledgebase and AI technology.
 * [Mamont](https://www.mmnt.ru/)
 * [GrayhatWarfare](https://grayhatwarfare.com/)
 * [WIPO](https://www3.wipo.int/branddb/en/)
+
+**[`^        back to top        ^`](#)**
 
 ## [↑](#contents) Visual Search and Clustering Search Engines
 
@@ -417,6 +429,8 @@ algorithms, knowledgebase and AI technology.
 * [SearchIsBack](https://searchisback.com)
 * [Wolfram Alpha Facebook Report](http://www.wolframalpha.com/input/?i=facebook+report)
 
+**[`^        back to top        ^`](#)**
+
 ### [↑](#contents) Instagram
 
 * [Hashtagify](http://hashtagify.me)
@@ -428,6 +442,8 @@ algorithms, knowledgebase and AI technology.
 * [Toutatis](https://github.com/megadose/toutatis)
 * [Worldcam](http://worldc.am)
 * [SearchMyBio](https://www.searchmy.bio/)
+
+**[`^        back to top        ^`](#)**
 
 ### [↑](#contents) Pinterest
 
@@ -449,6 +465,7 @@ algorithms, knowledgebase and AI technology.
 * [Reddit Comment Search](https://redditcommentsearch.com/) - Analyze a reddit users by comment history.
 * [Universal Scammer List](https://universalscammerlist.com/) - This acts as the website-portion for the subreddit /r/universalscammerlist. That subreddit, in conjuction with this website and a reddit bot, manages a list of malicious reddit accounts and minimizes the damage they can deal. This list is referred to as the "USL" for short.
 
+**[`^        back to top        ^`](#)**
 
 ### [↑](#contents) VKontakte
 
@@ -2243,6 +2260,8 @@ algorithms, knowledgebase and AI technology.
 * [VeraCrypt](https://veracrypt.codeplex.com)
 * [ZMail](http://zmail.sourceforge.net)
 
+**[`^        back to top        ^`](#)**
+
 ## [↑](#contents) DNS
 * [Amass](https://github.com/caffix/amass) - The amass tool searches Internet data sources, performs brute force subdomain enumeration, searches web archives, and uses machine learning to generate additional subdomain name guesses. DNS name resolution is performed across many public servers so the authoritative server will see the traffic coming from different locations. Written in Go.
 * [findsubdomains](https://findsubdomains.com/) - Automatically scans different sources to collect as many subdomains as can. Validate all the data through various tools and services to provide correct results without waiting.
@@ -2275,6 +2294,8 @@ urls and other data effortlessly
 * [OSINT.SH](https://osint.sh/) - Information Gathering Toolset.
 * [SpiderFoot](https://github.com/smicallef/spiderfoot) - SpiderFoot is an open source intelligence (OSINT) automation tool.
 * [FOCA](https://github.com/ElevenPaths/FOCA) - Tool to find metadata and hidden information in the documents.
+* 
+* **[`^        back to top        ^`](#)**
 
 
 ## [↑](#contents) Threat Intelligence
@@ -2284,6 +2305,8 @@ urls and other data effortlessly
 * [OTX AlienVault](https://otx.alienvault.com/) - Open Threat Exchange is the neighborhood watch of the global intelligence community. It enables private companies, independent security researchers, and government agencies to openly collaborate and share the latest information about emerging threats, attack methods, and malicious actors, promoting greater security across the entire community.
 * [OnionScan](https://github.com/s-rah/onionscan) - Free and open source tool for investigating the Dark Web. Its main goal is to help researchers and investigators monitor and track Dark Web sites.
 * [Digital Stakeout](https://www.digitalstakeout.com/platform) - DigitalStakeout Scout™ is the leading security intelligence tool to collect data from the surface web, social media, dark web and technical sources to illuminate and investigate external threats.
+* 
+* **[`^        back to top        ^`](#)**
 
 ## [↑](#contents) OSINT Videos
 
@@ -2292,6 +2315,8 @@ urls and other data effortlessly
 * [See how easily freaks can take over your life](https://www.youtube.com/watch?v=Rn4Rupla11M)
 * [Bendobrown](https://www.youtube.com/c/Bendobrown)
 * [SANS OSINT Summit 2021 (Playlist)](https://www.youtube.com/playlist?list=PLs4eo9Tja8bj3jJvv42LxOkhc2_ylpS9y)
+* 
+* **[`^        back to top        ^`](#)**
 
 ## [↑](#contents) OSINT Blogs
 
@@ -2305,6 +2330,7 @@ urls and other data effortlessly
 * [Sector035](https://sector035.nl/)
 * [Skopenow](https://www.skopenow.com/news)
 * [Sleuth For The Truth](http://sleuthforthetruth.com/)
+* **[`^        back to top        ^`](#)**
 
 ## [↑](#contents) Other Resources
 
