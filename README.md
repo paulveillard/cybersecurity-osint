@@ -1,10 +1,3 @@
-# Awesome OSINT [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
-[<img src="https://github.com/jivoi/awesome-osint/raw/master/osint_logo.png" align="right" width="100">](https://github.com/jivoi/awesome-osint)
-
-A curated list of amazingly awesome open source intelligence tools and resources.
-[Open-source intelligence (OSINT)](https://en.wikipedia.org/wiki/Open-source_intelligence) is intelligence collected from publicly available sources.
-In the intelligence community (IC), the term "open" refers to overt, publicly available sources (as opposed to covert or clandestine sources)
 
 ## 📖 Table of Contents
 
@@ -93,11 +86,11 @@ In the intelligence community (IC), the term "open" refers to overt, publicly av
  - [OSINT Blogs](#-osint-blogs)
  - [Other Resources](#-other-resources)
 
-## [↑](#contents) Contributing
+## [↑](#table-of-contents) Contributing
 
 Please read [CONTRIBUTING](./CONTRIBUTING.md) if you wish to add tools or resources.
 
-## [↑](#contents) Credits
+## [↑](#table-of-contents) Credits
 
 This list was taken partially taken from [i-inteligence's](http://www.i-intelligence.eu) [OSINT Tools and Resources Handbook](http://www.i-intelligence.eu/open-source-intelligence-tools-and-resources-handbook/).
 
@@ -105,7 +98,7 @@ Thanks to our main contributors
 [jivoi EK_](https://github.com/jivoi)
 [spmedia](https://github.com/spmedia)
 
-## [↑](#contents) General Search
+## [↑](#table-of-contents) General Search
 
 *The main search engines used by users.*
 
@@ -129,7 +122,7 @@ Thanks to our main contributors
 algorithms, knowledgebase and AI technology.
 * [Yahoo! Search](http://www.yahoo.com) -
 
-## [↑](#contents) Main National Search Engines
+## [↑](#table-of-contents) Main National Search Engines
 
 *Localized search engines by country.*
 
@@ -149,7 +142,7 @@ algorithms, knowledgebase and AI technology.
 * [Yandex (Russia)](http://www.yandex.com)
 * [Najdi.si (Slovenia)](http://www.najdi.si/)
 
-## [↑](#contents) Meta Search
+## [↑](#table-of-contents) Meta Search
 
 *Lesser known and used search engines.*
 
@@ -169,7 +162,7 @@ algorithms, knowledgebase and AI technology.
 * [Zapmeta](http://www.zapmeta.com)
 * [Swisscows](https://swisscows.com/)
 
-## [↑](#contents) Specialty Search Engines
+## [↑](#table-of-contents) Specialty Search Engines
 
 *Search engines for specific information or topics.*
 
