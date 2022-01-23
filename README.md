@@ -98,6 +98,10 @@
 
 ## [↑](#table-of-contents) Introduction
 
+**Open-source intelligence (OSNIT)** is the insight gained from processing and analyzing public data sources such as broadcast TV and radio, social media, and websites. These sources provide data in text, video, image, and audio formats.
+
+![osint](https://github.com/paulveillard/cybersecurity-osint/blob/main/img/osint.png)
+
 According to U.S. public law, **Open Source Intelligence:**
 
 - Is produced from publicly available information
