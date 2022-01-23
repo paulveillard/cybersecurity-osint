@@ -105,6 +105,14 @@ Thanks to our main contributors
 [jivoi EK_](https://github.com/jivoi)
 [spmedia](https://github.com/spmedia)
 
+## [↑](#table-of-contents) Introduction
+
+According to U.S. public law, **open source intelligence:**
+
+- Is produced from publicly available information
+- Is collected, analyzed, and disseminated in a timely manner to an appropriate audience
+- Addresses a specific intelligence requirement
+
 ## [↑](#table-of-contents) General Search
 
 *The main search engines used by users.*
